@@ -36,9 +36,7 @@ English version: [README_en.md](README_en.md)
 
 - [Spartan-7 のデザイン](https://github.com/ryuz/rtcl-designs/tree/main/projects/rtcl_p3s7_mipi/rtcl_p3s7_mipi)
 - [KV260 の デザイン](https://github.com/ryuz/rtcl-designs/tree/main/projects/kv260/kv260_rtcl_p3s7_hs)
-
-
-他に速度を落として ZYBO と接続できる事や、MIPI-CSI に準拠することも可能なことを確認していますが、まだプロジェクトとして準備できておりませんので今後にご期待ください。
+- [ZYBO の デザイン](https://github.com/ryuz/rtcl-designs/tree/main/projects/zybo_z7/zybo_z7_rtcl_p3s7_hs)
 
 
 ## リポジトリ構成

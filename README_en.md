@@ -36,8 +36,7 @@ Currently, there is a project that sends data to the KV260 using a custom specif
 
 - [Spartan-7 Design](https://github.com/ryuz/rtcl-designs/tree/main/projects/rtcl_p3s7_mipi/rtcl_p3s7_mipi)
 - [KV260 Design](https://github.com/ryuz/rtcl-designs/tree/main/projects/kv260/kv260_rtcl_p3s7_hs)
-
-We have also confirmed that it's possible to connect to ZYBO at reduced speeds and comply with MIPI-CSI standards, but these projects are not yet prepared, so please look forward to future developments.
+- [ZYBO Design](https://github.com/ryuz/rtcl-designs/tree/main/projects/zybo_z7/zybo_z7_rtcl_p3s7_hs)
 
 ## Repository Structure
 
