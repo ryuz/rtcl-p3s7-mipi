@@ -5735,6 +5735,12 @@
 		(uuid "7942f786-60f0-47f6-a255-579f91425ab8")
 	)
 	(junction
+		(at 128.27 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b502e2f-a5d2-48b2-8431-27478d8eecc7")
+	)
+	(junction
 		(at 119.38 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5799,6 +5805,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a4b560f-d498-46eb-8bd0-f3429e6763e3")
+	)
+	(junction
+		(at 137.16 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a34f1391-a175-4c93-a822-fda4502671cc")
 	)
 	(junction
 		(at 241.3 44.45)
@@ -6480,6 +6492,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 100.33) (xy 137.16 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "173ed096-0463-4e07-ad81-3107a55190ba")
+	)
+	(wire
+		(pts
 			(xy 138.43 67.31) (xy 151.13 67.31)
 		)
 		(stroke
@@ -6540,6 +6562,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 100.33) (xy 128.27 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bfa03ac-df57-40a6-a6cf-aa6904afa92f")
+	)
+	(wire
+		(pts
 			(xy 111.76 171.45) (xy 111.76 175.26)
 		)
 		(stroke
@@ -6567,6 +6599,16 @@
 			(type default)
 		)
 		(uuid "1df2aabf-cf37-4810-bf26-a35ea31776cd")
+	)
+	(wire
+		(pts
+			(xy 128.27 109.22) (xy 137.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1edcf1c5-6dab-4cfb-a429-62ffbde51ce8")
 	)
 	(wire
 		(pts
@@ -7960,6 +8002,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 109.22) (xy 137.16 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "739468df-06e8-4762-9007-64fadd4c867d")
+	)
+	(wire
+		(pts
 			(xy 40.64 132.08) (xy 17.78 132.08)
 		)
 		(stroke
@@ -8157,6 +8209,16 @@
 			(type default)
 		)
 		(uuid "8253a1a8-ffd8-4177-b6ce-6993b6a061f5")
+	)
+	(wire
+		(pts
+			(xy 137.16 107.95) (xy 137.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "826e57cb-8716-49cf-b70b-ad149a3d48ea")
 	)
 	(wire
 		(pts
@@ -8720,6 +8782,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 100.33) (xy 137.16 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ee2c9d-a766-44d1-90d0-9892b56df71b")
+	)
+	(wire
+		(pts
 			(xy 34.29 31.75) (xy 36.83 31.75)
 		)
 		(stroke
@@ -8980,7 +9052,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 105.41) (xy 128.27 107.95)
+			(xy 128.27 107.95) (xy 128.27 109.22)
 		)
 		(stroke
 			(width 0)
@@ -11222,7 +11294,7 @@
 			(uuid "3eea65aa-24f4-4e5e-ac32-11ba002d4cca")
 		)
 		(instances
-			(project ""
+			(project "sensor_python300"
 				(path "/c2c18cad-31cc-478f-ac04-d4c87cc32d8d"
 					(reference "#FLG01")
 					(unit 1)
@@ -11355,7 +11427,7 @@
 			(uuid "741a034d-bce3-44f0-aa1e-4ac05c328d0b")
 		)
 		(instances
-			(project ""
+			(project "sensor_python300"
 				(path "/c2c18cad-31cc-478f-ac04-d4c87cc32d8d"
 					(reference "#PWR037")
 					(unit 1)
@@ -11827,7 +11899,7 @@
 			(uuid "6d579cd6-b642-411a-9879-5f9c7b9b8d65")
 		)
 		(instances
-			(project ""
+			(project "sensor_python300"
 				(path "/c2c18cad-31cc-478f-ac04-d4c87cc32d8d"
 					(reference "U102")
 					(unit 1)
@@ -12302,7 +12374,7 @@
 			(uuid "2d7b8360-eb9a-493c-8b59-97b31b350ec4")
 		)
 		(instances
-			(project ""
+			(project "sensor_python300"
 				(path "/c2c18cad-31cc-478f-ac04-d4c87cc32d8d"
 					(reference "U101")
 					(unit 1)
@@ -12904,7 +12976,7 @@
 			(uuid "fbf4a60c-a8bc-4ec6-aa5b-ad43ca869c6b")
 		)
 		(instances
-			(project ""
+			(project "sensor_python300"
 				(path "/c2c18cad-31cc-478f-ac04-d4c87cc32d8d"
 					(reference "FB101")
 					(unit 1)
@@ -13170,6 +13242,75 @@
 			(project "sensor_python300"
 				(path "/c2c18cad-31cc-478f-ac04-d4c87cc32d8d"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 137.16 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "417a6176-3ab6-4f08-95d4-aa0447084b8f")
+		(property "Reference" "C130"
+			(at 138.684 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 138.176 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 137.16 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 137.16 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91de61c3-0be9-4c82-b36c-cc5254421421")
+		)
+		(pin "1"
+			(uuid "e02f70d2-508a-4da7-a8ab-02a10f0d3cc7")
+		)
+		(instances
+			(project "sensor_python300"
+				(path "/c2c18cad-31cc-478f-ac04-d4c87cc32d8d"
+					(reference "C130")
 					(unit 1)
 				)
 			)
@@ -13910,71 +14051,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 128.27 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "56cbc8c2-e48d-412c-8f05-c5b9de5e4be3")
-		(property "Reference" "#PWR0113"
-			(at 128.27 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 132.334 109.474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d7174c3-3c43-4aff-8a32-ddd80c2daaa3")
-		)
-		(instances
-			(project "sensor_python300"
-				(path "/c2c18cad-31cc-478f-ac04-d4c87cc32d8d"
-					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V8")
 		(at 101.6 116.84 0)
 		(unit 1)
@@ -14164,7 +14240,7 @@
 			(uuid "b7f0cb34-0e52-48a4-8510-c2c8c9107097")
 		)
 		(instances
-			(project ""
+			(project "sensor_python300"
 				(path "/c2c18cad-31cc-478f-ac04-d4c87cc32d8d"
 					(reference "#PWR01")
 					(unit 1)
@@ -15670,7 +15746,7 @@
 			(uuid "1c8d5590-b498-4cc0-a218-87269ab90bba")
 		)
 		(instances
-			(project ""
+			(project "sensor_python300"
 				(path "/c2c18cad-31cc-478f-ac04-d4c87cc32d8d"
 					(reference "X101")
 					(unit 1)
@@ -15938,7 +16014,7 @@
 			(uuid "d6267fc8-6af2-4ff4-876e-eea2e6318fec")
 		)
 		(instances
-			(project ""
+			(project "sensor_python300"
 				(path "/c2c18cad-31cc-478f-ac04-d4c87cc32d8d"
 					(reference "#PWR0104")
 					(unit 1)
@@ -17216,7 +17292,7 @@
 			(uuid "231c44ab-4953-445f-afe2-413cb4df784e")
 		)
 		(instances
-			(project ""
+			(project "sensor_python300"
 				(path "/c2c18cad-31cc-478f-ac04-d4c87cc32d8d"
 					(reference "L102")
 					(unit 1)
@@ -18571,7 +18647,7 @@
 			(uuid "0dd2e909-28fd-4a4a-b4d2-7309e9120c01")
 		)
 		(instances
-			(project ""
+			(project "sensor_python300"
 				(path "/c2c18cad-31cc-478f-ac04-d4c87cc32d8d"
 					(reference "R101")
 					(unit 1)
@@ -18770,7 +18846,7 @@
 			(uuid "822c31eb-8368-43f5-9583-1ab01680444a")
 		)
 		(instances
-			(project ""
+			(project "sensor_python300"
 				(path "/c2c18cad-31cc-478f-ac04-d4c87cc32d8d"
 					(reference "#PWR014")
 					(unit 1)
@@ -20158,6 +20234,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 137.16 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f202f5db-a9e7-484e-95ee-99339125642a")
+		(property "Reference" "#PWR0118"
+			(at 137.16 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 141.224 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d9536aa-a7f2-4513-bf7e-e8b33b4dfc09")
+		)
+		(instances
+			(project "sensor_python300"
+				(path "/c2c18cad-31cc-478f-ac04-d4c87cc32d8d"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VP")
 		(at 19.05 92.71 0)
 		(unit 1)
@@ -20421,7 +20562,7 @@
 			(uuid "13c9dcc4-efee-4446-893f-b6ad074bc1fe")
 		)
 		(instances
-			(project ""
+			(project "sensor_python300"
 				(path "/c2c18cad-31cc-478f-ac04-d4c87cc32d8d"
 					(reference "U105")
 					(unit 1)
@@ -20431,7 +20572,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 128.27 102.87 0)
+		(at 128.27 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20439,7 +20580,7 @@
 		(dnp no)
 		(uuid "f9e66472-cef0-449b-a9da-22400db5aa48")
 		(property "Reference" "C125"
-			(at 129.794 101.092 0)
+			(at 129.794 103.632 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20448,7 +20589,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 129.286 104.902 0)
+			(at 129.286 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20456,8 +20597,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 128.27 102.87 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 128.27 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20466,7 +20607,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 102.87 0)
+			(at 128.27 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20475,7 +20616,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 128.27 102.87 0)
+			(at 128.27 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
