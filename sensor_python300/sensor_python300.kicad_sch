@@ -19453,8 +19453,8 @@
 				)
 			)
 		)
-		(property "Value" "APX803S"
-			(at 29.21 88.9 0)
+		(property "Value" "APX803S-29SA-7"
+			(at 29.21 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
