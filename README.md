@@ -24,10 +24,11 @@ English version: [README_en.md](README_en.md)
 
 ## 基板販売
 
-当方で製造したものを[BOOTH](https://rtc-lab.booth.pm/)にて販売中です。
+当方で製造したものを[BOOTH](https://rtc-lab.booth.pm/) 及び [BASE](https://rtcl.base.shop/) にて販売中です。
 
-- [モノクロ版](https://rtc-lab.booth.pm/items/7427869)
-- [カラー版](https://rtc-lab.booth.pm/items/7428802)
+詳細は下記をご覧ください。
+
+https://rtc-lab.com/products/rtcl-cam-p3s7-mipi/
 
 
 ## 関連ソフトウェア
